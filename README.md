@@ -21,7 +21,55 @@
 | Python | 3.10 及以上 |
 | 微信版本 | Windows 微信 4.x / Mac 微信 4.x |
 
-## 🚀 快速开始
+## 🤖 配合 Claude Code 使用（推荐）
+
+本工具设计为 **Claude Code Skill**，可与 Claude Code 或 OpenAI Codex 配合使用，实现智能对话式分析。
+
+### 安装为 Claude Code Skill
+
+```bash
+# 克隆仓库
+git clone https://github.com/nooqle/wechat-analyzer-pro.git
+cd wechat-analyzer-pro
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 配置数据库路径（编辑 config.json）
+```
+
+### 在 Claude Code 中使用
+
+打开 Claude Code，切换到项目目录：
+
+```bash
+cd wechat-analyzer-pro
+claude
+```
+
+然后直接用自然语言对话：
+
+```
+帮我分析和小明的聊天记录
+```
+
+```
+分析一下工作群里张三和李四的沟通风格对比
+```
+
+```
+列出我所有的群聊
+```
+
+Claude Code 会自动：
+1. 调用工具导出聊天数据
+2. 进行人格分析
+3. 生成 HTML 报告
+4. 提供好友备注推荐
+
+---
+
+## 🛠️ 命令行使用
 
 ### 1. 克隆仓库
 
