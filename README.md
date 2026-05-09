@@ -26,7 +26,7 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/your-username/wechat-analyzer-pro.git
+git clone https://github.com/nooqle/wechat-analyzer-pro.git
 cd wechat-analyzer-pro
 ```
 
